@@ -174,7 +174,7 @@ def onmessage(update,bot:ObigramClient):
         except:pass
 
         if username not in config.PV_USERS:
-            bot.sendMessage(update.message.chat.id,'Para Habilitar el servcio o reactivar su acceso de uso contacte con @LAES2002')
+            bot.sendMessage(update.message.chat.id,'Este bot a sido actualizado a: @dowload_free_seven_bot .Por favor dudas o problemas contactarme @LAES2002')
             return
 
         if config.getUser(username) is None:
